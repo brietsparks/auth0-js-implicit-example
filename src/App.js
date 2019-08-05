@@ -8,7 +8,7 @@ function App() {
   return (
     <div>
       <CssBaseline />
-      <Router>
+      <Router basename="auth0-js-implicit-example">
         <Route exact path="/" component={Root} />
         <Route exact path="/public" component={Public} />
         <Route exact path="/private" component={Private} />
