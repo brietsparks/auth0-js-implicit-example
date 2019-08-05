@@ -1,24 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import CssBaseline from '@material-ui/core/CssBaseline';
+
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import { Public, LoggedOut, LoginCallback, Private, Root } from './pages';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <CssBaseline />
+      <Router>
+        <Route exact path="/" component={Root} />
+        <Route exact path="/public" component={Public} />
+        <Route exact path="/private" component={Private} />
+        <Route exact path="/login-callback" component={LoginCallback} />
+        <Route exact path="/logged-out" component={LoggedOut} />
+      </Router>
     </div>
   );
 }
