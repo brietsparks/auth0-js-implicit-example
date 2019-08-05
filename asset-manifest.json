@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/auth0-js-implicit-example/static/js/main.6ce6fb96.chunk.js",
+    "main.js.map": "/auth0-js-implicit-example/static/js/main.6ce6fb96.chunk.js.map",
+    "runtime~main.js": "/auth0-js-implicit-example/static/js/runtime~main.2b5c7a1b.js",
+    "runtime~main.js.map": "/auth0-js-implicit-example/static/js/runtime~main.2b5c7a1b.js.map",
+    "static/js/2.8510305d.chunk.js": "/auth0-js-implicit-example/static/js/2.8510305d.chunk.js",
+    "static/js/2.8510305d.chunk.js.map": "/auth0-js-implicit-example/static/js/2.8510305d.chunk.js.map",
+    "index.html": "/auth0-js-implicit-example/index.html",
+    "precache-manifest.dcf4d8f50d866923bc79134b11908cfd.js": "/auth0-js-implicit-example/precache-manifest.dcf4d8f50d866923bc79134b11908cfd.js",
+    "service-worker.js": "/auth0-js-implicit-example/service-worker.js"
+  }
+}
