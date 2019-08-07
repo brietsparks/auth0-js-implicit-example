@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6d34d1a0bb86b46e3f4cc8d950f29c7e",
+    "revision": "dcc2e6244c57c3d3abf41b9b9f4cbc6a",
     "url": "/auth0-js-implicit-example/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/auth0-js-implicit-example/static/js/2.d112e35e.chunk.js"
   },
   {
-    "revision": "d9706313271bedced443",
-    "url": "/auth0-js-implicit-example/static/js/main.dae083bf.chunk.js"
+    "revision": "4cdde1de200272867eee",
+    "url": "/auth0-js-implicit-example/static/js/main.0b4b44d8.chunk.js"
   },
   {
     "revision": "ad983425d8080f9de987",
