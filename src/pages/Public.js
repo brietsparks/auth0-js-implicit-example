@@ -6,7 +6,9 @@ import { authenticator } from '../auth';
 import Typography from '@material-ui/core/Typography';
 
 const Public = () => {
-  authenticator.authenticate();
+  authenticator.authenticate().then(result => {
+    console.log('Authenticated:', !result.accessToken ? 'anonymous user' : result);
+  });
 
   return (
     <div>

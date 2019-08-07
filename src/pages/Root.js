@@ -8,8 +8,6 @@ import Grid from '@material-ui/core/Grid';
 import Container from '@material-ui/core/Container';
 import { SvgIcon } from '@material-ui/core';
 
-const repoUrl = 'https://github.com/brietsparks/auth0-implicit-utils';
-
 const useStyles = makeStyles(theme => ({
   sources: {
     padding: theme.spacing(8, 0, 6),

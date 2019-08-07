@@ -4,7 +4,7 @@ import Container from '@material-ui/core/Container';
 
 const useStyles = makeStyles(theme => ({
   main: {
-    padding: theme.spacing(8, 0, 6)
+    padding: theme.spacing(8)
   }
 }));
 

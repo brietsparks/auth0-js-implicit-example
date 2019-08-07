@@ -46,8 +46,8 @@ const Nav = () => {
             <Link to="/private" className={classes.link}>Private Page</Link>
           </nav>
           {isUserLoggedIn()
-            ? <Button href="#" onClick={handleClickLogout}>Logout</Button>
-            : <Button href="#" onClick={handleClickLogin}>Login</Button>
+            ? <Button onClick={handleClickLogout}>Logout</Button>
+            : <Button onClick={handleClickLogin}>Login</Button>
           }
         </Toolbar>
       </AppBar>
