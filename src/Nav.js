@@ -29,7 +29,7 @@ const useStyles = makeStyles(theme => ({
 const Nav = () => {
   const classes = useStyles();
 
-  const handleClickLogin = () => authenticator.promptLogin(window.location.pathname);
+  const handleClickLogin = () => authenticator.promptLogin('/');
   const handleClickLogout = () => authenticator.logout();
 
   return (
